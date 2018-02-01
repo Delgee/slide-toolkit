@@ -1,6 +1,6 @@
 {
   "name": "slide-toolkit",
-  "version": "1.0.0",
+  "version": "3.0.1",
   "description": "slide-toolkit React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -23,15 +23,27 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "antd": "^3.1.6",
     "nwb": "0.21.x",
+    "nwb-less": "^0.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-jsonschema-form": "^1.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Delgee",
+  "homepage": "https://github.com/Delgee/slide-toolkit.git",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Delgee/slide-toolkit.git"
+  },
   "keywords": [
-    "react-component"
+    "react-component",
+    "antd",
+    "dashboard",
+    "admin"
   ]
 }
