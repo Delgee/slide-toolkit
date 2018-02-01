@@ -12,4 +12,9 @@ describe('Component', () => {
   afterEach(() => {
     unmountComponentAtNode(node)
   })
+
+  it('it should be true', (done) => {
+    expect(1).toEqual(1)
+    done()
+  })
 })
